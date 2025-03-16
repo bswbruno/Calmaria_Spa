@@ -25,7 +25,7 @@
 
     <header class="cabecalho">
         <nav class="cabecalho__nav">
-            <a href="#">
+            <a aria-label="Página da Calmaria Spa" href="#">
                 <img class="cabecalho__nav--logo" src="./assets/logo.png" alt="logo da Calmaria SPA">
             </a>
             <span class="cabecalho__nav--line"></span>
@@ -120,7 +120,7 @@
             </div>
             <form action="." class="container__contato--form">
                 <div class="container__contato--form-conteudo">
-                    <h5 class="container__contato--form-conteudo-titulo">Entre em contato</h5>
+                    <h5 id="titulo-contato" class="container__contato--form-conteudo-titulo">Entre em contato</h5>
                     <p class="container__contato--form-conteudo-texto">Reserve seu horário, tire dúvidas ou proponha
                         sugestões, nosso
                         canal é aberto para
@@ -133,19 +133,19 @@
                     <input type="email" placeholder="Digite seu email" id="email" name="email" required>
                     <label for="telefone">Telefone</label>
                     <input type="tel" placeholder="(XX) XXXX-XXXX" id="telefone" name="telefone" required>
-                    <fieldset>
+                    <fieldset aria-labelledby="titulo-contato">
                         <legend class="container__contato--inputs--titulo">Prefere contato por:</legend>
                         <div class="container__contato--inputs--div">
                              <div>
-                                <input type="radio" id="ligacao" name="contato_preferido" value="ligacao">
+                                <input type="radio" id="ligacao" name="contato" value="ligacao">
                                 <label for="ligacao">Ligação</label>
                             </div>
                             <div>
-                                <input type="radio" id="whatsApp" name="contato_preferido" value="whatsApp">
+                                <input type="radio" id="whatsApp" name="contato" value="whatsApp">
                                 <label for="whatsApp">WhatsApp</label>
                             </div>
                             <div>
-                                <input type="radio" id="email-contato" name="contato_preferido" value="email">
+                                <input type="radio" id="email-contato" name="contato" value="email">
                                 <label for="email-contato">Email</label>
                             </div>
                         </div>
@@ -162,9 +162,9 @@
         <address>
             Acesse nossas redes: <br>
             <ul class="rodape__nav--lista">
-                <li><a href="#" class="rodape__nav--lista--whatsapp" title="whatsapp"></a></li>
-                <li><a href="#" class="rodape__nav--lista--instagram" title="instagram"></a></li>
-                <li><a href="#" class="rodape__nav--lista--tiktok" title="tiktok"></a></li>
+                <li><a aria-label="Whatsapp da Calmaria Spa" href="#" class="rodape__nav--lista--whatsapp" ></a></li>
+                <li><a aria-label="Instagram da Calmaria Spa" href="#" class="rodape__nav--lista--instagram" ></a></li>
+                <li><a aria-label="TikTok da Calmaria Spa" href="#" class="rodape__nav--lista--tiktok" ></a></li>
             </ul>
             <small>Desenvolvido por Alura. Projeto fictício sem fins comerciais.</small>
         </address>

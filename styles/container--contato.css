@@ -6,6 +6,16 @@
     row-gap: 4.0rem;
 }
 
+fieldset {
+    border: none; /* Remove a borda */
+    padding: 0; /* Remove o padding padrão */
+}
+
+legend {
+    padding: 0; /* Remove o padding do legend, se necessário */
+}
+
+
 /* Imagens */
 
 .container__contato .container__contato--img {
