@@ -51,7 +51,7 @@
     align-self: end;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 601px) and (max-width:900px) {
     /* Tablet */
 
     .container__primeiro {
@@ -61,7 +61,7 @@
     }
 
     .container__primeiro--texto {
-        width: 48.6rem;
+        width: 100%;
     }
 
     .container__primeiro--texto h1 {
@@ -73,22 +73,32 @@
     }
 
     .container__primeiro--imagem {
-        width: 43.2rem;
-        height: 55.8rem;
+        width: 33.2rem;
+        height: 45.8rem;
         align-self: center;
+        margin: 3rem auto;
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 901px) {
 
     /* Desktop */
 
-    .container__primeiro {
-        flex-direction: row;
-        padding: 0 22rem 8rem 22rem;
-    }
+   .container__primeiro {
+    
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10rem;
+    
+    
+}
 
     .container__primeiro--imagem {
-        width: 47.4rem;
+        width: 43rem;
+        
     }
 }
