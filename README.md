@@ -1,39 +1,56 @@
-![Calmaria Spa](./assets/thumbnail.png)
+# 🌿 Calmaria Spa
 
-# Calmaria Spa
+Projeto fictício de um site institucional para um spa de bem-estar, desenvolvido com foco em boas práticas de HTML, CSS e responsividade. Criado como parte do meu portfólio profissional.
 
-A Calmaria Spa é um empresa de bem estar e saúde. Nesse momento, temos o código inicial da sua landing page, onde vamos encontrar pontos de melhoria para tornar o projeto acessível a todas as pessoas usuárias.
+## 📸 Preview
 
-<img src="./assets/screenshot.png" alt="Calmaria Spa" width="50%">
+![Capa do projeto](./assets/capaProjeto.png) <!-- Atualize com uma imagem de tela se desejar -->
+
+## 📌 Sobre o projeto
+
+O **Calmaria Spa** é um site fictício que simula um ambiente profissional de spa, com foco na experiência do usuário, design leve e estrutura semântica. O projeto foi desenvolvido com HTML5 e CSS3 puros, sem uso de frameworks, para valorizar a organização do código e a implementação manual da responsividade.
+
+## 🎯 Objetivos
+
+- Criar uma interface agradável e acolhedora;
+- Praticar divisão modular de CSS por seções;
+- Implementar responsividade com media queries em um único arquivo central;
+- Simular uma landing page real para apresentação de serviços;
+- Servir como exemplo de desenvolvimento para o portfólio pessoal.
+
+## 🧪 Tecnologias utilizadas
+
+- HTML5
+- CSS3
+- Google Fonts
+- SVGs otimizados
+- Organização modular de estilos
+- Responsividade via media queries
 
 
-## 🔨 Funcionalidades do projeto
+## 📱 Responsividade
 
-Nesse momento, nós temos a página que foi idealizada como entrega do time de desenvolvimento.
+O site foi projetado para funcionar bem em:
 
-Durante o curso, nós vamos analisar toda a estrutura do HTML e refatorar os pontos necessários do projeto.
-O desafio é encontrar pontos de melhoria na semântica do código HTML, para tornar o projeto Calmaria Spa acessível para todas as pessoas usuárias. 
+- Smartphones (até 600px)
+- Tablets (601px a 900px)
+- Telas maiores (acima de 901px)
 
-O [Figma dessa aplicação você encontra aqui](https://www.figma.com/file/1pDTUXo7ovT6zlE64Zw509/Calmaria-Spa--%7C-Forma%C3%A7%C3%A3o-Acessibilidade?type=design&node-id=98-1263&mode=design&t=iIe3hZrzPEvVEi0o-0).
+As media queries estão centralizadas no arquivo `styles/responsivo.css`.
 
-## ✔️ Técnicas e tecnologias utilizadas
+## 🧑‍💻 Autor
 
-Se liga nessa lista de tudo que usaremos nesse curso:
+Desenvolvido por **Bruno Santos**  
+🔗 [LinkedIn](https://www.linkedin.com/in/wanderley-bruno/)  
+📸 [Instagram Profissional](https://www.instagram.com/nobru_dev/)  
+📧 contato: wanderley.bruno@gmail.com
 
-- `HTML`
-- `CSS`
-- `Acessibilidade Web`
-- `Figma`
+> Este projeto é fictício e sem fins comerciais, criado exclusivamente para fins de portfólio.
 
-E muito mais!
+## 📄 Licença
 
-## 🛠️ Abrir e rodar o projeto
+Este projeto está sob a licença [MIT](https://choosealicense.com/licenses/mit/) 
 
-Para abrir e rodar o projeto, utilize um editor de código de sua escolha.
 
-Depois, abra o projeto no seu navegador.
 
-## 📚 Mais informações do curso
 
-O Calmaria Spa é uma empresa fictícia utilizada nesse curso da Alura.
-A ideia principal desse curso é evoluir ainda mais os conhecimentos em Acessibilidade Web com foco em CSS. 
