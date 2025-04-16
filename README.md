@@ -1,55 +1,85 @@
-# 🌿 Calmaria Spa
+# 💆‍♀️ Calmaria Spa
 
-Projeto fictício de um site institucional para um spa de bem-estar, desenvolvido com foco em boas práticas de HTML, CSS e responsividade. Criado como parte do meu portfólio profissional.
+Projeto de site fictício para um spa relaxante, desenvolvido com HTML, CSS e JavaScript com foco em animações suaves, layout responsivo e código modular. Parte integrante do meu portfólio profissional.
 
-## 📸 Preview
+---
 
-![Capa do projeto](./assets/capaProjeto.png) <!-- Atualize com uma imagem de tela se desejar -->
+## 🌐 Acesse o Projeto Online
 
-## 📌 Sobre o projeto
+👉 [https://calmaria-spa-mu.vercel.app](https://calmaria-spa-mu.vercel.app)
 
-O **Calmaria Spa** é um site fictício que simula um ambiente profissional de spa, com foco na experiência do usuário, design leve e estrutura semântica. O projeto foi desenvolvido com HTML5 e CSS3 puros, sem uso de frameworks, para valorizar a organização do código e a implementação manual da responsividade.
+## 📸 Demonstração
 
-## 🎯 Objetivos
+![screenshot](./assets/capaProjeto.png)
 
-- Criar uma interface agradável e acolhedora;
-- Praticar divisão modular de CSS por seções;
-- Implementar responsividade com media queries em um único arquivo central;
-- Simular uma landing page real para apresentação de serviços;
-- Servir como exemplo de desenvolvimento para o portfólio pessoal.
+---
 
-## 🧪 Tecnologias utilizadas
+## 🚀 Funcionalidades
+
+- Layout 100% responsivo
+- Animações suaves ao rolar a página (scroll reveal)
+- Estrutura modular com CSS separado por seções
+- Formulário de contato estilizado
+- Ícones e imagens integrados com foco no bem-estar
+
+---
+
+## 📁 Estrutura de Pastas
+
+```plaintext
+calmaria-spa/
+├── assets/                         # Imagens, ícones e vetores
+│   ├── home-image.png
+│   ├── logo.png
+│   ├── espaco-1.png
+│   ├── espaco-2.png
+│   ├── espaco-3.png
+│   ├── icon-massagem.png
+│   ├── icon-tratamentos.png
+│   ├── icon-dias-especiais.png
+│   ├── contato-img-1.png
+│   ├── contato-img-2.png
+│   ├── contato-img-3.png
+│   └── (outros SVGs e ícones)
+├── styles/                         # CSS organizado por componente
+│   ├── style.css
+│   ├── cabecalho.css
+│   ├── container--primeiro.css
+│   ├── container--secao.css
+│   ├── container--cards.css
+│   ├── container--inscricao.css
+│   ├── container--contato.css
+│   ├── rodape.css
+│   └── responsivo.css
+├── index.html                      # Estrutura principal da página
+├── script.js                       # Lógica JS para animações
+└── README.md                       # Documentação do projeto
+```
+##
+
+## 🛠️ Tecnologias Utilizadas
 
 - HTML5
+
 - CSS3
+
+- JavaScript Vanilla
+
 - Google Fonts
-- SVGs otimizados
-- Organização modular de estilos
-- Responsividade via media queries
+
+- SVGs personalizados
+
+- Responsividade Mobile First
+##
+## 👨‍💻 Autor
+
+**Bruno dos Santos**  
+📞 (21) 98048-8310  
 
 
-## 📱 Responsividade
+📧 wanderley.bruno@gmail.com  
 
-O site foi projetado para funcionar bem em:
-
-- Smartphones (até 600px)
-- Tablets (601px a 900px)
-- Telas maiores (acima de 901px)
-
-As media queries estão centralizadas no arquivo `styles/responsivo.css`.
-
-## 🧑‍💻 Autor
-
-Desenvolvido por **Bruno Santos**  
-🔗 [LinkedIn](https://www.linkedin.com/in/wanderley-bruno/)  
-📸 [Instagram Profissional](https://www.instagram.com/nobru_dev/)  
-📧 contato: wanderley.bruno@gmail.com
-
-> Este projeto é fictício e sem fins comerciais, criado exclusivamente para fins de portfólio.
-
-## 📄 Licença
-
-Este projeto está sob a licença [MIT](https://choosealicense.com/licenses/mit/) 
+🔗 [LinkedIn](https://www.linkedin.com/in/wanderley-bruno/)
 
 
 
