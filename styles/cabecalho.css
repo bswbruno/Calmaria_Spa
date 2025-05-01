@@ -21,6 +21,10 @@
   font-size: 1.5rem;
 }
 
+.cabecalho__nav .cabecalho__lista-item .submenu {
+  display: none;
+}
+
 .cabecalho .cabecalho__nav .cabecalho__nav--line {
   width: 100%;
   border-bottom: .1rem solid black;
