@@ -19,7 +19,7 @@ legend {
 /* Imagens */
 
 .container__contato .container__contato--img {
-    display: grid;
+    display:row;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);
     gap: 2.4rem;
@@ -27,6 +27,7 @@ legend {
 }
 
 .container__contato .container__contato--img img {
+    
     border-radius: 3.2rem;
     width: 100%;
     max-width: 32.8rem;
@@ -34,7 +35,12 @@ legend {
 
 /* Formulário */
 
-.container__contato .container__contato--form {
+.container__contato--form {
+    display: none;
+}
+
+.container__contato .container__contato--inputs {
+    
     background: var(--gradiente);
     padding: 2.4rem 1.6rem;
     border-radius: 3.4rem;
@@ -45,6 +51,7 @@ legend {
 }
 
 .container__contato--form-conteudo {
+    
     display: grid;
     row-gap: 2.4rem;
     text-align: center;
