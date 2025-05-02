@@ -48,9 +48,9 @@
               <!-- Adiciona aria-haspopup para indicar que este item tem um submenu -->
               <!-- Adiciona aria-expanded para indicar se o submenu está aberto ou fechado -->
               <a href="#" aria-haspopup="true" aria-expanded="false">Nosso espaço</a>
-              <span class="material-symbols-outlined icone" aria-hidden="true">stat_minus_1</span>
+              <span class="material-symbols-outlined icone" id="btnMenu" onclick="subAbrir()" onmouseout="subSair()"aria-hidden="true">stat_minus_1</span>
               <!-- Submenu de primeiro nível -->
-              <ul class="submenu">
+              <ul class="submenu" id="submen" >
                 <li>
                   <a href="/quem-somos.html">Nossa história</a>
                 </li>
@@ -225,6 +225,7 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="main.js"></script>
 
 </body>
 
