@@ -19,16 +19,28 @@
 
 .cabecalho__nav--lista {
   font-size: 1.5rem;
+  position: relative;
 }
 
 .cabecalho__nav .cabecalho__lista-item .submenu {
   display: none;
-  width: 100%;
+  
   padding: 1rem;
   line-height: 4.6rem;
-  background-color: #c5d1a4;
+  background-color: white;
+   position: absolute;
+  z-index: 1000;
 
 }
+
+.submenu li {
+  border-bottom: 1px solid gray;
+}
+
+.submenu li:nth-child(3) {
+  border: none;
+}
+
 
 .cabecalho .cabecalho__nav .cabecalho__nav--line {
   width: 100%;

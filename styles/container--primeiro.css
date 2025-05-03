@@ -25,6 +25,8 @@
     justify-content: center;
     flex-wrap: wrap;
     row-gap: 2.4rem;
+    
+    
 }
 
 .container__primeiro--texto h1 {
